@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --primary-color: #166cb8ac;
+    --secondary-color: #4b4b4b;
+    --tertiary-color: #dcdcdc;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container { 
+    height: 450px;
+    width: 450px;
+    margin: 100px auto;
+    background: #f7f7f7;
+    border-radius: 20px;
+}
+
+.title {
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+.type {
+    font-size: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    padding-top: 15px
+}
+
+#form {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.formInput {
+    background: white;
+    width: 60px;
+}
+
+.formInput:focus{
+    border: 3px solid var(--primary-color);
+    outline: none;
+}
+
+.formSubmit {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: var(--primary-color);
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+}
+
+#out {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
