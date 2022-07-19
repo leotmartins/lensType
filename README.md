@@ -13,3 +13,5 @@ Além do mais, foi definido que o grau limite que o usuário pode inserir é de 
 ### Sobre o projeto
 
 Para o desenvolvimento desse sistema foi utilizado JavaScript e para a criação da interface, HTML e CSS.
+
+Demo: https://leotmartins.github.io/lensType/
